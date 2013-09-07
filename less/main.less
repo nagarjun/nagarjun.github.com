@@ -11,6 +11,7 @@
 @import "header.less";
 @import "article.less";
 
+// Custom Decoration
 @font-face {
 	font-family: "icons";
 	src:url("../fonts/icons.eot");
@@ -20,4 +21,82 @@
 		url("../fonts/icons.woff") format("woff");
 	font-weight: normal;
 	font-style: normal;
+}
+
+.container > .left {
+	width: 288px;
+	height: auto;
+}
+
+.container > .right {
+	padding-left: 44px;
+	width: 836px;
+	height: auto;
+}
+
+.container p {
+	line-height: 1.5;
+}
+
+.container > .left .icon {
+	font-size: 36px;
+	line-height: 1;
+}
+
+.container > .left .icon a {
+	text-decoration: none;
+}
+
+#twitter:link, #twitter:visited {
+	color: #73CBEF;
+}
+
+#twitter:hover {
+	color: darken(#73CBEF, 18%);
+}
+
+#linkedin:link, #linkedin:visited {
+	color: #1287CD;
+}
+
+#linkedin:hover {
+	color: darken(#1287CD, 18%);
+}
+
+#github:link, #github:visited {
+	color: #171515;
+}
+
+#github:hover {
+	color: darken(#171515, 18%);
+}
+
+#facebook:link, #facebook:visited {
+	color: #4E75BA;
+}
+
+#facebook:hover {
+	color: darken(#4E75BA, 18%);
+}
+
+#googleplus:link, #googleplus:visited {
+	color: #DF4A32;
+}
+
+#googleplus:hover {
+	color: darken(#DF4A32, 18%);
+}
+
+#power {
+	font-size: 9px;
+	color: @gray-light;
+}
+
+#power a:link, #power a:visited {
+	text-decoration: none;
+	color: @gray-dark;
+}
+
+#power a:hover {
+	color: @gray;
 }

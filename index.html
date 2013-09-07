@@ -3,8 +3,21 @@ layout: default
 title: Nagarjun Palavalli > Entrepreneur • Web Developer and Designer
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
+<div class="left">
+	<h2>Who</h2>
+	<p>Founder &amp; CEO at <a href="http://www.eduora.com/">Eduora</a>, front-end web developer &amp; designer. Interested in space, 
+		aviation, wearables &amp; technology.</p>
+	<p class="icon">
+		<a id="twitter" href="http://twitter.com/palavalli">t</a>
+		<a id="linkedin" href="http://in.linkedin.com/in/palavalli">l</a>
+		<a id="github" href="http://github.com/nagarjun">h</a>
+		<a id="facebook" href="http://www.facebook.com/nagarjun">f</a>
+		<a id="googleplus" href="https://plus.google.com/u/0/111499386112733402151/">g</a>
+	</p>
+	<p id="power">Powered by <a href="http://jekyllrb.com/">Jekyll</a> &amp; <a href="https://github.com/">GitHub</a>.</p>
+</div>
+<div class="right">
+  <h2>Blog Posts</h2>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>

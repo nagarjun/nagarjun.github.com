@@ -96,4 +96,21 @@ article{margin:0px auto;width:644px;height:auto;}
 article>.meta{margin-bottom:9px;font-size:14px;text-transform:uppercase;color:#999999;}
 article h2{margin-bottom:36px;font-size:26px;line-height:1;}
 article .post>p{margin-bottom:18px;font-size:16px;line-height:1.5;color:#555555;}
-@font-face{font-family:"icons";src:url("../fonts/icons.eot");src:url("../fonts/icons.eot?#iefix") format("embedded-opentype"),url("../fonts/icons.ttf") format("truetype"),url("../fonts/icons.svg#icons") format("svg"),url("../fonts/icons.woff") format("woff");font-weight:normal;font-style:normal;}
+@font-face{font-family:"icons";src:url("../fonts/icons.eot");src:url("../fonts/icons.eot?#iefix") format("embedded-opentype"),url("../fonts/icons.ttf") format("truetype"),url("../fonts/icons.svg#icons") format("svg"),url("../fonts/icons.woff") format("woff");font-weight:normal;font-style:normal;}.container>.left{width:288px;height:auto;}
+.container>.right{padding-left:44px;width:836px;height:auto;}
+.container p{line-height:1.5;}
+.container>.left .icon{font-size:36px;line-height:1;}
+.container>.left .icon a{text-decoration:none;}
+#twitter:link,#twitter:visited{color:#73CBEF;}
+#twitter:hover{color:#21ace6;}
+#linkedin:link,#linkedin:visited{color:#1287CD;}
+#linkedin:hover{color:#0b4f79;}
+#github:link,#github:visited{color:#171515;}
+#github:hover{color:#000000;}
+#facebook:link,#facebook:visited{color:#4E75BA;}
+#facebook:hover{color:#304c7c;}
+#googleplus:link,#googleplus:visited{color:#DF4A32;}
+#googleplus:hover{color:#9d2b18;}
+#power{font-size:9px;color:#999999;}
+#power a:link,#power a:visited{text-decoration:none;color:#333333;}
+#power a:hover{color:#555555;}
