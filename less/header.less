@@ -1,0 +1,86 @@
+//
+// Header
+// --------------------------------------------------
+
+header {
+	margin-bottom: 36px;
+	background-color: @signature;
+	color: @body-bg;
+	width: 100%;
+	height: auto;
+}
+
+header span {
+	vertical-align: middle;
+}
+
+header .icon {
+	margin-right: 9px;
+	font-size: 22px;
+	vertical-align: middle;
+}
+
+header input[type="text"] {
+	border: none;
+	background-color: @signature;
+	color: @body-bg;
+	vertical-align: middle;
+	width: 288px;
+	height: auto;
+}
+
+header input[type="text"]:hover, header input[type="text"]:active {
+	box-shadow: none;
+	outline-style: none;
+	background-color: darken(@signature, 18%);
+}
+
+.placeholder(@body-bg);
+
+#name, #buttons {
+	float: left;
+}
+
+#name {
+	margin-right: 36px;
+	padding: 10px 9px 0px 0px;
+	font-size: 22px;
+}
+
+#buttons a:link, #buttons a:visited {
+	display: block;
+	float: left;
+	padding: 15px 12px;
+	text-decoration: none;
+	color: @body-bg;
+}
+
+#search {
+	display: block;
+	float: left;
+	padding: 15px 12px;
+}
+
+#search:hover {
+	background-color: darken(@signature, 18%);
+}
+
+#buttons a:hover, #buttons a:active {
+	background-color: darken(@signature, 18%);
+}
+
+#icons {
+	float: right;
+	padding-top: 14px;
+}
+
+#icons a:link, #icons a:visited {
+	margin-left: 5px;
+	font-size: 26px;
+	text-decoration: none;
+	color: darken(@signature, 18%);
+}
+
+#icons a:hover, #icons a:active {
+	color: @body-bg;
+}
