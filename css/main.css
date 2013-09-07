@@ -87,7 +87,7 @@ header input[type="text"]:hover,header input[type="text"]:active{box-shadow:none
 #name{margin-right:36px;padding:10px 9px 0px 0px;font-size:22px;}
 #buttons a:link,#buttons a:visited{display:block;float:left;padding:15px 12px;text-decoration:none;color:#ffffff;}
 #search{display:block;float:left;padding:15px 12px;}
-#search:hover{background-color:#3a5b99;}
+#search:hover,#search:hover input[type="text"]{background-color:#3a5b99;}
 #buttons a:hover,#buttons a:active{background-color:#3a5b99;}
 #icons{float:right;padding-top:14px;}
 #icons a:link,#icons a:visited{margin-left:5px;font-size:26px;text-decoration:none;color:#3a5b99;}
