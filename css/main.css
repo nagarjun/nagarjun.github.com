@@ -90,11 +90,12 @@ hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eeeeee;}
 #facebook:hover{color:#304c7c;}
 #googleplus:link,#googleplus:visited{color:#DF4A32;}
 #googleplus:hover{color:#9d2b18;}
-#power{font-size:9px;color:#999999;}
+#power{font-size:9px;color:#999999;line-height:1.9;}
 #power a:link,#power a:visited{text-decoration:none;color:#333333;}
 #power a:hover{color:#555555;}
 .container>.right h2 a:link,.container>.right h2 a:visited,.container>.right h2 a:hover{font-size:14px;text-decoration:none;color:#333333;font-weight:normal;}
 .container>.right h2 span:hover,.container>.right h2 a:hover span{color:#F39501;}
+#page p{font-size:16px;line-height:1.5;}
 header{margin-bottom:36px;background-color:#6989c6;color:#ffffff;width:100%;height:auto;}
 header span{vertical-align:middle;}
 header .icon{margin-right:9px;font-size:22px;vertical-align:middle;}
