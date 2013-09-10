@@ -30,23 +30,3 @@ layout: default
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
-
-<script type="text/javascript">
-    $(document).ready(function() {
-        $(window).scroll(function() {
-            var articleHeight = $('article').innerHeight();
-            var scrollPos = $(window).scrollTop();
-
-            if (scrollPos >= 97) {
-                $('#progress').show();
-                $('#progress').css('display', 'block');
-
-                var progress = Math.round((scrollPos / articleHeight) * 100);
-                $('#progress').css('width', progress + '%');
-            }
-            else {
-                $('#progress').hide();
-            }
-        });
-    });
-</script>    

@@ -33,7 +33,7 @@
                     <a href="/about/"><span class="icon">c</span><span>About</span></a>
                     <a href="/press/"><span class="icon">v</span><span>Press</span></a>
                     <span id="search">
-                        <span class="icon">s</span><input type="text" placeholder="Search">
+                        <span class="icon">s</span><input type="text" id="search-box" placeholder="Search">
                     </span>
                 </div>
                 <div id="icons">
@@ -47,6 +47,32 @@
             {{ content }}
         </div>
 
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#search-box').keyup(function(e) {
+                    if (e.keyCode == 13) {
+                        var searchTerm = $(this).val() + ' site:nagarjun.co';
+                        window.open('http://google.com/search?q=' + searchTerm);
+                    };
+                });
+
+                $(window).scroll(function() {
+                    var articleHeight = $('article').innerHeight();
+                    var scrollPos = $(window).scrollTop();
+
+                    if (scrollPos >= 97) {
+                        $('#progress').show();
+                        $('#progress').css('display', 'block');
+
+                        var progress = Math.round((scrollPos / articleHeight) * 100);
+                        $('#progress').css('width', progress + '%');
+                    }
+                    else {
+                        $('#progress').hide();
+                    }
+                });
+            });
+        </script>
         <script>
             var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
