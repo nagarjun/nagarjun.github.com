@@ -27,11 +27,25 @@ My Jawbone Up helps me analyze idle time sitting in front a computer (something 
 
 Technology is making it possible to collect data about *you as an individual* for the first time. When combined with the data collected by everyone, we will have unprecedented knowledge about humanity.
 
-Vinod Khosla made an argument for how algorithms can make healthcare more accurate and efficient in: [Do We Need Doctors Or Algorithms?][vinod-khosla]
+I once attended a talk by Vinod Khosla about the role algorithms will play in making healthcare more accurate and efficient. He also wrote an article about it: [Do We Need Doctors Or Algorithms?][vinod-khosla]
 
 >"The history of symptoms, illnesses, and test results could be accessed, processed, and assessed by a computer to see any correlation or trends with the patient’s past. You are the one providing the doctor with the symptoms anyway after all!" - Vinod Khosla
 
 It's a bold statement and definitely worth a read.
+
+Today, the medical industry is seeing the biggest benefits of this new trend. However, Quantified Self will play a larger role in your life once the industry consolidates its efforts. Data collected by my Jawbone Up cannot be read by any other device. There's a lack of data standards and that could hurt this industry. We'll see how it progresses.
+
+With so much proprietary data, people would have to use powerful analytics software like that built by [Palantir][palantir] to make sense of it.
+
+### How can you get started? ###
+It really depends on what you want to achieve. Data can quickly become useless if you don't collect the right kind of information. Start by asking some questions:
+
+* Do you want to track your daily activity? Try [Jawbone Up][jawbone-up], [FitBit][fitbit] or [Nike Plus][nike-plus].
+* Want to track your mood? Try [Happiness][happiness] or [Moodscope][moodscope].
+* Want to lose weight? Try the [Withings Smart Body Analyzer][withings].
+* Extra: [Looking for a more scientific approach to designing self-experiments?][scientific]
+
+There are tools for everything. You get to decide what you want to track.
 
 [jawbone-up]: https://jawbone.com/up
 [galaxy-gear]: http://www.engadget.com/2013/09/04/galaxy-gear-hands-on/
@@ -41,3 +55,10 @@ It's a bold statement and definitely worth a read.
 [qs-image]: http://www.syncstrength.com/wp-content/uploads/2013/03/quantified-self-blue-image.jpeg
 [stephen-wolfram]: http://blog.stephenwolfram.com/2012/03/the-personal-analytics-of-my-life/
 [vinod-khosla]: http://techcrunch.com/2012/01/10/doctors-or-algorithms/
+[palantir]: http://www.palantir.com/
+[fitbit]: http://www.fitbit.com/
+[nike-plus]: http://nikeplus.nike.com/
+[happiness]: http://goodtohear.co.uk/happiness
+[moodscope]: https://www.moodscope.com/
+[withings]: http://www.withings.com/en/scales
+[scientific]: http://hplusmagazine.com/2012/11/14/quantified-self-how-to-designing-self-experiments/
