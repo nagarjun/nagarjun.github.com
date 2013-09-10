@@ -108,6 +108,7 @@ header input[type="text"]:hover,header input[type="text"]:active{box-shadow:none
 ::-webkit-input-placeholder{color:#ffffff;}
 #name,#buttons{float:left;}
 #name{margin-right:36px;padding:10px 9px 0px 0px;font-size:22px;}
+#name a:link,#name a:visited,#name a:hover{text-decoration:none;color:#ffffff;}
 #buttons a:link,#buttons a:visited{display:block;float:left;padding:15px 12px;text-decoration:none;color:#ffffff;}
 #search{display:block;float:left;padding:15px 12px;}
 #search:hover,#search:hover input[type="text"]{background-color:#3a5b99;}
@@ -115,7 +116,7 @@ header input[type="text"]:hover,header input[type="text"]:active{box-shadow:none
 #icons{float:right;padding-top:14px;}
 #icons a:link,#icons a:visited{margin-left:5px;font-size:26px;text-decoration:none;color:#3a5b99;}
 #icons a:hover,#icons a:active{color:#ffffff;}
-#progress{position:fixed;top:0px;display:block;background-color:#5cb85c;width:100%;height:2px;}
+#progress{position:fixed;top:0px;display:none;background-color:#5cb85c;width:100%;height:2px;}
 article{margin:0px auto;width:644px;height:auto;}
 article>.meta{margin-bottom:9px;font-size:14px;text-transform:uppercase;color:#999999;}
 article h2{margin-bottom:36px;font-size:26px;line-height:1;}

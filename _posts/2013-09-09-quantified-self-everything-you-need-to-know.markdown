@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Quantified Self - Everything You Need to Know"
+description: Quantified Self is a movement that promises to help people by collecting data across all aspects of a person's life.
 date:   2013-09-09 17:33:44
 ---
 
