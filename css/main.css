@@ -95,10 +95,15 @@ hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eeeeee;}
 #power a:hover{color:#555555;}
 .container>.right h2 a:link,.container>.right h2 a:visited,.container>.right h2 a:hover{font-size:14px;text-decoration:none;color:#333333;font-weight:normal;}
 .container>.right h2 span:hover,.container>.right h2 a:hover span{color:#F39501;}
+#page{margin-bottom:36px;}
 #page h3{margin-top:36px;}
 #page p{font-size:16px;line-height:1.5;}
+#page table tr td{padding:5px;}
+#page .when{text-align:right;font-size:12px;color:#999999;font-weight:bold;vertical-align:top;}
+#page .press{padding-left:18px;}
 header{margin-bottom:36px;background-color:#6989c6;color:#ffffff;width:100%;height:auto;}
 header span{vertical-align:middle;}
+header nav{float:left;}
 header .icon{margin-right:9px;font-size:22px;vertical-align:middle;}
 header input[type="text"]{border:none;background-color:#6989c6;color:#ffffff;vertical-align:middle;width:288px;height:auto;}
 header input[type="text"]:hover,header input[type="text"]:active{box-shadow:none;outline-style:none;background-color:#3a5b99;}
