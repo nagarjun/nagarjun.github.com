@@ -11,4 +11,7 @@ The iPhone 5S has a fingerprint reader but, it isn't revolutionary because of it
 
 Many phones have had fingerprint readers that essentially served as a security layer much like the iPhone 5S. However, none had the right software to support it or had a design that made it appeal to the masses.
 
+On a side note, I think the Apple M7 chip will propel the [Quantified Self Movement][quantified-self]. The potential for a wide range of self-tracking applications will make it an ideal device for people to discover the advantages of Quantified Self.
+
 [iphone5s]: /images/iphone-fingerprint-reader.jpg
+[quantified-self]: http://nagarjun.co/2013/09/09/quantified-self-everything-you-need-to-know.html
